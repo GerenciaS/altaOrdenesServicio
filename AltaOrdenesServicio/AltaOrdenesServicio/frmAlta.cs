@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace AltaOrdenesServicio
 {
-    public partial class Form1 : Form
+    public partial class frmAlta : Form
     {
-        public Form1()
+        public frmAlta()
         {
             InitializeComponent();
+        }
+
+        private void frmAlta_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
